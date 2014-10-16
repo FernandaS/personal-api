@@ -1,0 +1,25 @@
+{
+  "name": "personal-api",
+  "version": "1.0.0",
+  "description": "personal-api ============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FernandaS/personal-api.git"
+  },
+  "author": "Fernanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandaS/personal-api/issues"
+  },
+  "homepage": "https://github.com/FernandaS/personal-api",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "cors": "^2.4.2",
+    "express": "^4.9.7"
+  }
+}

@@ -1,0 +1,13 @@
+<h1>Skills</h1>
+
+<input ng-model="onPost.name" placeholder="name"></input>
+<input ng-model="onPost.id" placeholder="id"></input>
+<input ng-model="onPost.experience" placeholder="experience"></input>
+<button ng-click="postSkills()">Click ME</button>
+
+<div>
+	<ul ng-repeat="skill in skills">
+		<li>{{skill.id}}  {{skill.name}}  {{skill.experience}}
+		</li>
+	</ul>
+</div>
